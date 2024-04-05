@@ -1,0 +1,39 @@
+body{
+    background: rgb(65,13,217);
+    background: linear-gradient(90deg, rgba(65,13,217,1) 16%, rgba(198,13,13,1) 81%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+button{
+    margin: 10px;
+    background-color: cornflowerblue;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+}
+.row div{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 19%, rgba(253,187,45,1) 76%);
+    padding: 10px;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    float: left;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+}
+.row div:hover{
+    cursor: pointer;
+    scale: 0.90;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 73, 207);
+    scale: 0.95;
+    box-shadow: 10px 0px 10px black;
+}
